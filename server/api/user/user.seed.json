@@ -1,0 +1,15 @@
+[{
+    "_id": "5741c6dfe693fb12149b3281",
+    "provider": "local",
+    "name": "Test User",
+    "email": "test@test.com",
+    "password": "test"
+}, {
+
+    "_id": "574264af7b82d14416a61ddf",
+    "provider": "local",
+    "role": "admin",
+    "name": "Admin",
+    "email": "admin@admin.com",
+    "password": "admin"
+}]

@@ -1,0 +1,12 @@
+[
+	{
+		"_id": "57426b76ae9e1f9c1d10a328",
+		"name": "Hot News",
+		"startDate":"2016-05-05",
+		"lastActiveDate":"2016-05-05",
+		"info": "Sample",
+		"isActive": true,
+		"isPublic": true
+
+	}
+]
