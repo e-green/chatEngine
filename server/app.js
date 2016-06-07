@@ -58,7 +58,7 @@ require('./config/express')(app);
 require('./routes')(app);
 
 // Start server
-server.listen(config.port, config.ip, function () {
+server.listen("9000", "0.0.0.0", function () {
   console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
 });
 
