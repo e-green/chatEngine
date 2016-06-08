@@ -7,7 +7,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
+FROM readytalk/nodejs
 
 # Add application to
 RUN mkdir -p /app/
