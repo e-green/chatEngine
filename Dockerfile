@@ -25,4 +25,4 @@ RUN npm install
 EXPOSE 8080
 
 # Define default command.
-CMD ["node","server/app.js"]
+CMD ["node", "/app/src/index.js"]
