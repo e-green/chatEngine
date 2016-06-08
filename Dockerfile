@@ -10,14 +10,7 @@
 FROM readytalk/nodejs
 
 # Add application to
-RUN mkdir -p /app/
-WORKDIR /app
-COPY . ./
-
-# Install Bower & Grunt
-RUN npm install -g bower grunt-cli
-
-
+COPY .
 RUN npm install
 
 # Define working directory.
@@ -25,4 +18,4 @@ RUN npm install
 EXPOSE 8080
 
 # Define default command.
-CMD ["node", "/app/src/index.js"]
+CMD ["node", "/app/server/app.js"]
