@@ -25,4 +25,4 @@ RUN npm install
 EXPOSE 9000
 
 # Define default command.
-CMD ["grunt serve"]
+CMD ["node server/app.js"]
