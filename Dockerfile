@@ -9,7 +9,7 @@
 # Pull base image.
 FROM dockerfile/nodejs
 
-# Add application to 
+# Add application to
 RUN mkdir -p /app/
 WORKDIR . /app/
 COPY . /app/
@@ -23,7 +23,7 @@ RUN npm install
 # Define working directory.
 WORKDIR /app
 
+EXPOSE 9000
+
 # Define default command.
 CMD ["grunt serve"]
-
-
