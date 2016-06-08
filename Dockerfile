@@ -22,7 +22,7 @@ RUN npm install
 
 # Define working directory.
 
-EXPOSE 9000
+EXPOSE 8080
 
 # Define default command.
-CMD ["node server/app.js"]
+CMD ["node","server/app.js"]
