@@ -9,8 +9,12 @@
 # Pull base image.
 FROM readytalk/nodejs
 
+
 # Add application to
-COPY .
+RUN mkdir /app/
+COPY . /app/
+WORKDIR /app/
+RUN ls
 RUN npm install
 
 # Define working directory.
